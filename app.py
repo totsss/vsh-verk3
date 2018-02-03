@@ -46,12 +46,12 @@ def sida():
 @route('/1608003640')
 def index():
     kt="1608003640"
-    return template("skra.tpl",kt=kt)
+    return template("skra1.tpl",kt=kt)
 
 @route('/2509003170')
 def index():
     kt="2509003170"
-    return template("skra1.tpl",kt=kt)
+    return template("skra2.tpl",kt=kt)
 
 @route('/frett/<nr>')
 def staticfrett(nr):
